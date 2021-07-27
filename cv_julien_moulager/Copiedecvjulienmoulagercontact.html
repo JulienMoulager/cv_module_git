@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="contact.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+
+<!-- photo -->
+
+<body>
+    <img src="IMG_20210510_174357.jpg" alt="photo Julien MOULAGER" style=" width:90px; height:100px;">
+
+    <div class="top">
+        <h1 id="julien">Julien MOULAGER <br /> Etudiant développeur web en IOT</h1>
+
+
+
+
+    </div>
+
+    <div class="partie2">
+        <!-- lien qui permette d'accéder au différentes pas de mon site -->
+        <p><B>
+                <a id="Accueil" href="cvjulienMOULAGER3.html">Accueil</a>
+                <a id="Hobby" href="cvjulienmoulagerhobby.html">Hobby</a>
+                <a id="Vidéo" href="cvjulienmoulagerpitchvideo.html">Vidéo</a>
+                <a id="Contact" href="Copiedecvjulienmoulagercontact.html">
+                    Contact </a>
+            </B>
+        </p>
+
+
+    </div>
+
+
+
+    <div id="formulaire"> 
+
+
+
+
+  
+    <form method="post" action="https://httpbin.org/post">
+
+        <p>Vous êtes: </p>
+        <p>
+
+            Homme: <input type="radio" name="sex" value="homme" /><br />
+            Femme: <input type="radio" name="sex" value="femmme" /><br />
+            Autre: <input type="radio" name="sex" value="autre" /><br />
+
+            <br /> <br /> <br /> <br />
+
+            Name: <input type="text" size="10" maxlength="40" name="NOM" required />
+            Prénom: <input type="text" size="10" maxlength="10" name="Prénom" /><br>
+
+            Email: <input type="email" size="10" maxlength="50" name="Email" required>
+            Téléphone: <input type="tel" size="10" maxlength="20" name="Téléphone"><br>
+
+            <textarea id="messagecontact" name="message " rows="10" cols="40">
+            </textarea> <br/>
+            <input type="submit" value="Envoyer" />
+
+        </p>
+
+    </form>
+
+
+
+    </div>
+</body>
+
+</html>
+

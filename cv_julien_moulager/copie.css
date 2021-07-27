@@ -1,0 +1,539 @@
+body{
+
+    margin:0px;
+    padding: 0;
+}
+#mescompetences{
+    width:100;
+
+
+
+}
+
+.centered{
+
+    width:100%;
+}
+
+
+
+
+/* Julien MOULAGER ... */
+
+@media (min-width:1024px) {
+    .top{
+        background-color: #1E90FF;     
+        border-radius: 5px;
+        border-bottom: solid black 1px ;
+        width:100%;
+        min-height: 100px;
+        font-size: 18px;
+    }
+    .top img {
+        width:10%; 
+    }
+    #accueil{
+        width: 65px;
+        height: 60px;
+        margin-top: 35px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .top h1, .top div {        
+        margin-top: 15px;
+        font-size: 30px;     
+        text-align: center;
+        font-style: bold;
+        width:100%;  
+    }
+    
+/* lien vers les autres pages */
+.partie2{
+    text-align: center;
+    opacity: 100%;
+    background-color: #2d1eff;
+    margin: 0px;
+    padding: 30px;
+    font-size: 24px;
+    color: black;
+}
+
+
+/*image photo montagne */
+
+.contenant {
+    position: relative;
+    text-align: center;
+    color: black;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+  }
+    .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translate(-50%, -50%);
+    font-size: 16px ;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+
+}
+li{
+    list-style:none ;
+}
+h4{
+    font-size: 18px;
+    text-decoration: underline;
+}
+  .top_left {
+    position: absolute;
+    top: 8px;
+    left: 4px;
+    font-size: 18px;
+    font-style: bold;
+  }
+
+
+#montagne{
+    width:100%;
+}
+#expérience{
+    position: relative;
+    opacity: 1;
+}
+
+/* Expérience */
+
+.hobby{
+    text-align: center;
+}
+
+table{
+
+    border-collapse:collapse;
+    /*margin-left:260px;*/
+    margin:auto;
+}
+
+td{
+    text-align: center;
+}
+th,td, tr{
+
+    border:#000000 2px solid;
+    text-align: center;
+
+}
+}
+
+@media  (min-width:700px) and (max-width:1023px){
+
+    .contenant{
+        display: flex;
+        flex-direction: row;
+    }
+    .top{
+        background-color: #1E90FF;
+        border-radius: 5px;
+        border-bottom: solid black 1px ;
+        width:100%;
+        min-height: 20px;
+        font-size: 8px;
+    }
+    .top img {
+        width:10%; 
+    }
+    #accueil{
+
+        width: 30px;
+        height: 30px;
+        margin-top: 25px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .top_left{
+
+        padding-bottom: 20px;
+
+    }
+
+
+    .top h1, .top div {        
+        margin-top: 10px;
+        font-size: 15px;     
+        text-align: center;
+        font-style: bold;
+        width:100%;  
+    }
+    .centered{
+
+        margin-top: 20px;
+    }
+}
+    
+
+
+
+/* lien vers les autres pages */
+.partie2{
+
+    text-align: center;
+    opacity: 100%;
+    background-color: #2d1eff;
+    margin: 0px;
+    padding: 15px;
+    font-size: 20px;
+    color: black;
+    
+
+}
+
+
+/*image photo montagne */
+
+.contenant {
+    position: relative;
+    text-align: center;
+    color: black;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px ;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin-top: 50px;
+
+}
+
+#formation{
+
+    margin-top: 30px;
+}
+
+#mescompetences{
+
+    justify-content: center;
+}
+
+
+
+li{
+    list-style:none ;
+}
+
+h4{
+
+    font-size: 18px;
+    text-decoration: underline;
+    font-style: bold;
+}
+
+  .top_left {
+    position: absolute;
+    top: 8px;
+    left: 280px;
+    font-size: 18px;
+    font-style: bold;
+ }
+
+
+#montagne{
+   
+   
+    width:100%;
+    height: 770px;
+}
+
+
+
+#expérience{
+    position: relative;
+    opacity: 1;
+}
+
+/* Expérience */
+
+.hobby {
+    display: flex;
+    justify-content: center;
+}
+table{
+
+    border-collapse:collapse;
+    margin-top: 50px;
+}
+
+th,td, tr{
+
+    border:#000000 2px solid;
+    text-align: center;
+}
+}
+
+
+@media ( max-width:700px) and (orientation:portrait){
+
+    .top{
+        background-color: #1E90FF;
+        border-radius: 5px;
+        border-bottom: solid black 1px ;
+        width:100%;
+        min-height: 24px;
+        font-size: 5px;
+        text-align: center;
+        font-style: bold;
+    }
+    .top img {
+        width:15%; 
+    }
+    #accueil{
+
+        width: 30px;
+        height: 25px;
+        margin-top: 25px;
+        margin-left: 5px;
+        margin-right: 15px;
+    }
+   .top h1, .top div {        
+        margin-top: 10px;
+        font-size: 15px;     
+        text-align: center;
+        font-style: bold;
+        width:100%;  
+    }
+/* lien vers les autres pages */
+.partie2{
+    text-align: center;
+    opacity: 100%;
+    background-color: #2d1eff;
+    margin: 0px;
+    padding: 15px;
+    font-size: 20px;
+    color: black;
+}
+/*image photo montagne */
+.contenant {
+    position: relative;
+    text-align: center;
+    color: black;
+    margin: 0px;
+    width: 100%;
+    overflow: hidden;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 13px ;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin-top: 30px;
+    width:100%;
+}
+
+#formation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 1px;
+}
+#experience{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 1px;
+}
+#mescompetences{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#mescompetences p{
+    text-align: justify;
+}
+li{
+    list-style:none ;
+}
+h4{
+    font-size: 18px;
+    text-decoration: underline;
+    font-style: bold;
+}
+
+  .top_left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+    font-style: bold;
+  }
+#montagne{
+    max-width: 599px;
+    height: 800px;
+}
+
+#expérience{
+    position: relative;
+    opacity: 1;
+}
+/* Expérience */
+.hobby {
+    display: flex;
+    justify-content: center;
+}
+table{
+
+    border-collapse:collapse;
+    margin-top: 20px;
+}
+th,td, tr{
+    border:#000000 2px solid;
+    text-align: center;
+}
+}
+
+@media ( max-width:599px) and (orientation:landscape) {
+
+    .top{
+        background-color: #1E90FF;
+        border-radius: 5px;
+        border-bottom: solid black 1px ;
+        width:100%;
+        min-height: 24px;
+        font-size: 5px;
+        text-align: center;
+        font-style: bold;
+    }
+    .top img {
+        width:15%; 
+    }
+    #accueil{
+        width: 30px;
+        height: 25px;
+        margin-top: 25px;
+        margin-left: 5px;
+        margin-right: 15px;
+    }
+    .top h1, .top div {        
+        margin-top: 10px;
+        font-size: 15px;     
+        text-align: center;
+        font-style: bold;
+        width:100%;  
+    }
+/* lien vers les autres pages */
+.partie2{
+
+    text-align: center;
+    opacity: 100%;
+    background-color: #2d1eff;
+    margin: 0px;
+    padding: 15px;
+    font-size: 20px;
+    color: black;
+}
+/*image photo montagne */
+
+.contenant {
+    position: relative;
+    text-align: center;
+    color: black;
+    margin: 0px;
+    width: 100%;
+    overflow: hidden;
+
+}
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 13px ;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    
+    width:100%;
+    White-space: normal;
+}
+#formation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 1px;
+    margin-top: 30px;
+}
+#experience{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 1px;
+}
+#mescompetences{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#mescompetences p{
+    text-align: justify;
+}
+li{
+    list-style:none ;
+}
+h4{
+    font-size: 18px;
+    text-decoration: underline;
+    font-style: bold;
+}
+#titreformation{
+    margin-top:60px;
+}
+  .top_left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+    font-style: bold;
+}
+
+
+#montagne{
+    max-width: 599px;
+    height: 800px;
+}
+
+#expérience{
+    position: relative;
+    opacity: 1;
+}
+
+/* Expérience */
+
+.hobby {
+    display: flex;
+    justify-content: center;
+}
+table{
+
+    border-collapse:collapse;
+    margin-top: 20px;
+}
+
+th,td, tr{
+    border:#000000 2px solid;
+    text-align: center;
+}
+}
+
